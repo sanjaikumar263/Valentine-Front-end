@@ -68,7 +68,7 @@ const onSubmit = async (data: any) => {
         return;
     }
   try {
-    const response = await fetch("http://localhost:3000/api/valentine", {
+    const response = await fetch("https://valentine-back-end-1.onrender.com/api/valentine", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

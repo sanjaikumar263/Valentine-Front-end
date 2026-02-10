@@ -13,7 +13,7 @@ const ViewPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/api/valentine/${id}`);
+        const response = await fetch(`https://valentine-back-end-1.onrender.com/api/valentine/${id}`);
         const result = await response.json();
         setData(result);
         console.log("Fetched data:", result);

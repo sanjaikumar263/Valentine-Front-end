@@ -10,7 +10,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/add" element={<Add />} />
+          <Route path="/" element={<Add />} />
           <Route path="/valentine/:id" element={<ViewPage />} />
         </Routes>
       </BrowserRouter>
